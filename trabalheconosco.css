@@ -1,0 +1,102 @@
+:root {
+    --corvermelho: #BF2604;
+    --coramarelo: #D9B54A;
+    --fundo: #26120B;
+    --contornoamarelo: #F2B872;
+    --marromclaro: #73493F;
+    
+}
+
+
+section#paralax {
+    height: 21.875rem;
+    background-image: url(imagens/backgroundRH.jpg);
+    background-position: center bottom;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 6.25rem;
+}
+
+#container {
+    background-image: url(imagens/cozinha01.jpg);
+    height: 36.4375rem;
+    margin-top: 3.125rem;
+    width: 33%;
+    margin-left: 5.0625rem;
+    margin-bottom: 3.125rem;
+    border: 0.625rem solid var(--coramarelo);
+    background-position: center;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    text-align: center;
+    height: 3.125rem;
+    padding-top: 1.375rem;
+    font-size: 1.875rem;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.74);
+}
+
+#containerbranco {
+    background-color: white;;
+   position: relative;
+   top: 33.8125rem;
+   width: 62.3125rem;
+   height: 17.6875rem;
+   margin-left: 51.5625rem;
+   border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+   padding: 1.25rem;
+   font-size: 2.5rem;
+   background-attachment: scroll;
+   border: 0.625rem solid var(--coramarelo);
+   box-shadow: 0.3125rem 0.3125rem 0.3125rem 0.3125rem #f2b87213;
+}
+
+#containerform {
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    width: 31%;
+    margin: auto;
+    font-size: 1.5625rem;
+    border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+    height: 59.8125rem;
+    border: 10px solid var(--coramarelo);
+}
+
+
+#containerform p {
+    margin-top: 2.3125rem;
+    font-size: 2.5rem;
+    color: var(--corvermelho);
+    margin-left: 1.875rem;
+}
+
+fieldset {
+    text-align: center;
+    margin-top: 1.875rem;
+}
+
+.FormText {
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.radio {
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        margin-left: 14px;
+}
+
+button > input {
+    background-color: transparent;
+    border:0px solid transparent;
+    position: relative;
+}
+
+
+

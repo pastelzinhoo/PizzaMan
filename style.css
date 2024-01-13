@@ -1,0 +1,225 @@
+* { 
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "pizzafont";
+}
+
+*::-webkit-scrollbar {
+background-color: transparent;
+width: 10px;
+height: 10px;
+    
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--contornoamarelo);
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: "pizzafont";
+    src: url(fonte/PIZZARIA.ttf) format(truetype);
+}
+
+
+:root {
+    --corvermelho: #BF2604;
+    --coramarelo: #D9B54A;
+    --fundo: #26120B;
+    --contornoamarelo: #F2B872;
+    --marromclaro: #73493F;
+    
+}
+
+body {
+    background-color: var(--fundo);
+    width: 100%;
+    overflow-x: hidden;   
+}
+
+header {
+    background-color: white;
+    height: 6.25rem;
+}
+
+
+header img {
+    width: 6.25rem;
+    position: absolute;
+    
+}
+
+
+
+#menu {
+    display: flex;  
+    justify-content: center;
+    padding: 1.875rem;
+    gap: 0rem 0.9375rem;
+}
+
+button {
+    padding: 0.625rem;
+    background-color: transparent;
+    border-radius: 5%;
+}
+
+button:hover {
+    background-color: var(--contornoamarelo);
+    font-size: 0.9375rem;
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.295);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+#waze {
+    border: 0.625rem solid var(--contornoamarelo);
+    margin: 0.9375rem;
+}
+
+
+
+#localizacao {
+    color: white;
+    text-align: left;
+    margin-left: 12.5rem;
+    margin-top: 9.375rem;
+}
+
+#localizacao h2 {
+    position: relative;
+    left: 9.375rem;
+    text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.808);
+}
+
+#localizacao p {
+    position: absolute;
+    font-size: 3.125rem;
+    right: 6.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+div img#forno {
+    width: 37.5rem;
+    height: 25rem;
+    border: 0.625rem solid var(--contornoamarelo);
+    position: relative;
+    bottom: 27.6rem;
+    left: 69rem;
+}
+
+#BoxMassa {
+    margin-top: 200px;
+ }
+
+#BoxMassa p, ul {
+    color: var(--contornoamarelo);
+    font-size: 2.8125rem;
+    text-align: center;
+    position: relative;
+    right: 25rem;
+    margin-top: 6.25rem;
+    
+    
+}
+
+#boxwhite {
+    background-color: white;
+}
+
+#pizzaflex {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 6.25rem;
+    
+}
+
+.pizza {
+    width: 21.875rem;
+    margin-bottom: 30.5rem;
+    position: relative;
+    left: 9.375rem;
+    
+}
+
+#amassa{
+    color: #26120B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#pizzaflex span  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 6.25rem;
+    margin-bottom: 0px;
+}
+
+#receitapaulista {
+    position: relative;
+    top: 16.75rem;
+    right: 30.0625rem;
+}
+
+#receitapresento {
+    position: relative;
+    top: 6.75rem;
+    right: 8.0625rem;
+}
+
+#receitarecife {
+    position: relative;
+    top: -11.25rem;
+    right: -14.9375rem;
+}
+
+
+.color {
+    color: var(--corvermelho);
+    font-size: 3.75rem;
+    position: relative;
+    left: -6.4375rem;
+   
+}
+
+li > strong > span {
+    color: red;
+}
+
+
+ul > h1 {
+    color:#BF2604;
+    text-shadow: 0.1875rem 0.1875rem 0.1875rem rgba(0, 0, 0, 0.39);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.red {
+    color:  red;
+}
+
+
+#linkfooter:hover {
+    color: var(--coramarelo);
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+}
+  
+
+
+
+
+
+

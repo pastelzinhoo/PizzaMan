@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilofundo.css">
+    <link rel="stylesheet" href="trabalheconosco.css">
+    <title>TRABALHE CONOSCO</title>
+</head>
+<body>
+    <main>
+    <header>
+        <div>
+            <img src="imagens/logo.png" alt="Logo Pizza man">
+            <span id="menu">
+                <button><strong><a href="index.html" target="_parent" rel="selfie">INICIO</a></strong></button>
+                <button><strong><a href="reclameaqui.html" target="_parent" rel="selfie">RECLAME AQUI</a></strong></button>
+            </span>
+        </div>
+        <p id="containerbranco">Estamos muito feliz com sua iniciativa para fazer parte de nossa equipe. Logo abaixo vais vai poder responder perguntas e enviar seus documentos para concorrer a uma oportunidade de fazer parte da nossa equipe. <br> <br> Boa sorte! &#x1F355</p>
+    </header>
+        <section id="paralax">
+        </section>
+        <section id="container">
+            <article>
+                <div>
+                   
+                </div>
+            </article>
+        </section>
+        <section id="containerform">
+            <article>
+                <div>
+                    <p>PORTAL DO CANDIDATO</p>
+                    <fieldset>
+                        <legend>Informacoes pessoais</legend>
+                       <form action="cadastro.php" autocomplete="off" method="post">
+                        <p class="FormText">
+                            <label class="FormText" for="NomeCurriculo">&#x1F4CC Nome:</label>
+                            <input type="text" name="NomeCurriculo" id="NomeCurriculo">
+                            <br>
+                            <label class="FormText" id="Centraliza" for="IdadeCurriculo">&#x1F4CC Idade:</label>
+                            <input type="text" name="IdadeCurriculo" id="IdadeCurriculo">
+                            <br>
+                            <label class="FormText" for="EmailCurriculo">&#x1F4CC Email:</label>
+                            <input type="email" name="EmailCurriculo" id="EmailCurriculo">
+                            <br> <br> <br>
+                            <hr>
+                            <label class="FormText" for="ExperienciaCurriculo">Possui experiencia?</label>
+                            <br>  <br>
+                            <span class="radio">Yes</span>
+                            <input type="radio" name="ExperienciaCurriculo" id="Sim">
+                            <span class="radio">No</span>
+                            <input type="radio" name="ExperienciaCurriculo" id="Nao">
+                            <hr>
+                            <br> <br>
+                            <label for="Curriculo">&#x1F4C3 Curriculo: </label>
+                            <input type="file" name="Curriculo" id="Curriculo">  
+                        <br> <br> <hr>
+                        <br> 
+                        <label for="Cargo">Cargo desejado:</label>
+                        <select name="Cargo" id="Cargo">
+                            
+                                <option value="Garcom">Garcom</option>
+                                <option value="Balconista">Balconista</option>
+                                <option value="Segurança">Segurança</option>
+                                <option value="LavaPrato">Lava Prato</option>
+                                <option value="gelo">Limpador de Carvão</option>
+                                <option value="Banheiro">Limpeza de Banheiro</option>
+                                <option value="Motoboy">Motoboy</option>
+
+                        </select>
+                        </p>
+                       </form>
+                    </fieldset>
+                    <br> <br> esta tudo certo? Vamos enviar seu curriculo entao!
+                    <br> <br>
+                    <button><input type="submit" value="ENVIAR"></button>
+                    <button><input type="reset" value="LIMPAR"></buttton>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

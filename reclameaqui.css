@@ -1,0 +1,108 @@
+:root {
+    --corvermelho: #BF2604;
+    --coramarelo: #D9B54A;
+    --fundo: #26120B;
+    --contornoamarelo: #F2B872;
+    --marromclaro: #73493F;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+#Srpizza {
+    margin-top: 6.25rem;
+    position: relative;
+    top: -44.9375rem;
+    right: 39.375rem;
+    
+}
+
+#balao {
+    position: absolute;
+    top: 15rem;
+    left: 6.6875rem;
+    
+}
+
+#containerwhite {
+    margin-top: 6.25rem;
+    padding: 1.25rem;
+    font-size: 1.4375rem;
+    background-color: white;
+    height: 42rem;
+    width: 31.25rem;
+    color: var(--corvermelho);
+    border-radius: 5%;
+    border: solid 10px var(--contornoamarelo)
+    
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerflex {
+    margin-left: 42.9375rem;
+}
+
+#containerwhite:hover {
+    box-shadow: 0.625rem 0.625rem 0.625rem rgba(255, 255, 0, 0.158);
+}
+
+form {
+
+    color: black;
+}
+
+#fildsetheader {
+    font-size: 1.5rem;
+    border-radius: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+    padding-top: 1.25rem;
+}
+
+#satisfacao {
+    accent-color: var(--contornoamarelo);
+}
+
+#fildsetproblemas {
+    font-size:0.9rem;  
+}
+
+ul {
+    columns: 2;
+    list-style: none;
+    margin-left: 2.5rem;
+    
+}
+
+legend {
+    font-size: 1.5rem;
+    text-align: center;
+}
+fieldset {
+    margin-top: 0.9375rem;
+}
+
+#fildsetrange{
+    padding: 15px;
+    text-align: center;
+}
+
+#fildsetmsg {
+    padding: 20px;
+}
+
+.inputbutton {
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+button {
+    margin-top: 15px;
+}
+
+

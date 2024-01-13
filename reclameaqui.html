@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reclameaqui.css">
+    <link rel="stylesheet" href="estilofundo.css">
+    <link rel="shortcut icon" href="imagens/Botão Pizza.png" type="image/x-icon">
+    <title>RECLAME AQUI</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <img src="imagens/logo.png" alt="Logo Pizza man">
+                <span id="menu">
+                    <button><strong><a href="index.html" target="_parent" rel="selfie">INICIO</a></strong></button>
+                    <button><strong>TRABALHE CONOSNO</strong></button>
+                </span>
+            </div>
+        </header>
+        <section id="containerflex">
+            <article>
+                <div>
+                    <img id="balao" src="imagens/Balao.png" alt="Balão Conversa">
+                </div>
+                <div id="containerwhite">
+                    <h1><strong>RECLAME AQUI</strong></h1>
+                    <form action="cadastro.php" method="post" autocomplete="off">
+                        <fieldset id="fildsetheader">
+                            <legend>Quem sou?</legend>
+                            <p class="headerform"> <strong>NOME:</strong>
+                            <label for="nome">
+                                <input type="text" name="nome" id="nome" placeholder="NOME AQUI" size="15" >
+                            </label>
+                            <label for="sobrenome">
+                                <strong>SOBRENOME:</strong>
+                            </label>
+                            <input type="text" name="sobrenome" id="sobrenome" placeholder="SOBRENOME AQUI" size="15" >
+                        </fieldset>
+                        <fieldset id="fildsetproblemas">
+                            <legend>Problemas</legend>
+                            <br>
+                            Qual problema você enfrentou?
+                            <br> <br>
+                            <ul>
+                            <li>
+                                DEMORA PRA ENTREGAR
+                                <input type="checkbox" name="demora" id="demora">
+                            </li>
+                            <li>
+                                COMIDA FRIA
+                                <input type="checkbox" name="fria" id="fria">
+                            </li>
+                            <li>
+                                MAL ATENDIMENTO
+                                <input type="checkbox" name="atendimento" id="atendimento">
+                            </li>
+                            <li>
+                                PEDIDO ERRADO
+                                <input type="checkbox" name="errado" id="errado">
+                            </li>
+                            <li>
+                                ENTREGADOR
+                                <input type="checkbox" name="entregador" id="entregador">
+                            </li>
+                            <li>
+                                PEDIDO NÃO CHEGOU
+                                <input type="checkbox" name="naochegou" id="naochegou">
+                            </li>
+                            </ul> 
+                        </fieldset>
+                        <fieldset id="fildsetrange">
+                            <legend>Nota</legend>
+                            <label for="satisfacao">
+                                Nivel de satisfacao:
+                            </label>
+                        <input type="range" name="satisfacao" id="satisfacao" min="1" max="5" value="2">
+                    </fieldset>
+                    <fieldset id="fildsetmsg">
+                        <p>Como foi sua experiencia?</p>
+                        <textarea name="msg" id="msg" cols="60" rows="10" placeholder="Escreva aqui...">
+
+                        </textarea>
+                    </fieldset>
+                    <button><input class="inputbutton" type="submit" value=""><strong>ENVIAR</strong></button>
+                    <button><input class="inputbutton" type="reset" value=""><strong>LIMPAR</strong></button>
+                    </form>
+                    <div id="Srpizza">
+                        <img id="PizzaMan" src="imagens/srpizza.png" alt="Sr.Pizza">
+                    </div>
+                    
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

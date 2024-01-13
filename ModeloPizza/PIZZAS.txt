@@ -1,0 +1,27 @@
+{Frutos do mar} 
+
+Queijo
+Oregano 
+Azeitona Roxa
+Polvo
+Páprica
+
+{Récife} 
+
+Queijo
+Oregano
+Cogumelos
+Páprica
+Atum
+
+{Paulista}
+
+Queijo
+Cabalabresa
+
+{Presunto} 
+
+Presunto Picado
+Cebola
+Azeitona
+Menta

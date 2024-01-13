@@ -1,0 +1,81 @@
+* { 
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "pizzafont";
+}
+
+*::-webkit-scrollbar {
+background-color: transparent;
+width: 10px;
+height: 10px;
+    
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--contornoamarelo);
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: "pizzafont";
+    src: url(fonte/PIZZARIA.ttf) format(truetype);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --corvermelho: #BF2604;
+    --coramarelo: #D9B54A;
+    --fundo: #26120B;
+    --contornoamarelo: #F2B872;
+    --marromclaro: #73493F;
+    
+}
+
+body {
+    background-color: var(--fundo);
+    width: 100%;
+    overflow-x: hidden;   
+}
+
+
+header {
+    background-color: white;
+    height: 6.25rem;
+}
+
+header img {
+    width: 6.25rem;
+    position: absolute;
+    
+}
+
+#menu {
+    display: flex;  
+    justify-content: center;
+    padding: 1.875rem;
+    gap: 0rem 0.9375rem;
+}
+
+button {
+    padding: 0.625rem;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: var(--contornoamarelo);
+    font-size: 0.9375rem;
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.295);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
